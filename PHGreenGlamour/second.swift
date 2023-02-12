@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct second: View {
     @State private var link: String = ""
     @State private var highlights: [String] = []
     @State private var ingredients: [String] = []
@@ -69,3 +69,4 @@ struct ContentView: View {
             }
         }
     }
+
